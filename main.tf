@@ -4,8 +4,8 @@ provider "aws" {
   secret_key = "64TIPQQA2s0H+4axQZGrWMcLKYOhW87r9rlJl/Ba"
 }
 
-resource "aws_s3_bucket" "my-s3-bucket" {
-  bucket = "my-s303-bucket"
+resource "aws_s3_bucket" "my-s302-bucket" {
+  bucket = "my-s302-bucket"
   acl    = "private"
 
   tags = {
@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "my-s3-bucket" {
     
   }
 }
-resource "aws_s3_bucket" "my-s3-bucket" {
+resource "aws_s3_bucket" "my-s301-bucket" {
   bucket = "my-s301-bucket"
   acl    = "private"
 
@@ -22,7 +22,7 @@ resource "aws_s3_bucket" "my-s3-bucket" {
    
   }
 }
-resource "aws_s3_bucket" "my-s3-bucket" {
+resource "aws_s3_bucket" "my-s303-bucket" {
   bucket = "my-s303-bucket"
   acl    = "private"
 
