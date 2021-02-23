@@ -4,7 +4,7 @@ provider "aws" {
   secret_key = "64TIPQQA2s0H+4axQZGrWMcLKYOhW87r9rlJl/Ba"
 }
 
-resource "aws_s3_bucket" "3s3bucket1hema" {
+resource "aws_s3_bucket" "s3bucket1hema" {
   bucket = "my-tf-test-bucket"
   acl    = "private"
 
@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "3s3bucket1hema" {
     Environment = "Dev"
   }
 }
-resource "aws_s3_bucket" "3s3bucket2hema" {
+resource "aws_s3_bucket" "s3bucket2hema" {
   bucket = "my-tf-test-bucket"
   acl    = "private"
 
@@ -22,7 +22,7 @@ resource "aws_s3_bucket" "3s3bucket2hema" {
     Environment = "Dev"
   }
 }
-resource "aws_s3_bucket" "3s3bucket3hema" {
+resource "aws_s3_bucket" "s3bucket3hema" {
   bucket = "my-tf-test-bucket"
   acl    = "private"
 
